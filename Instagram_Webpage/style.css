@@ -1,4 +1,4 @@
-* {
+* { /* Gabriela's approach to prevent errors when editing the CSS*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -18,7 +18,7 @@ body {
 }
 
 .instagram-wrapper {
-    display: flex;
+    display: flex; /* Please review the class for a concise explanation about Flexbox by Gabriela */
     align-items: center;
     justify-content: start;
     width: 60%;
@@ -38,8 +38,8 @@ body {
 
 .instagram-continue {
     display: flex;
-    align-items: center; /* horizontal */
-    justify-content: space-around; /* vertical */
+    align-items: center; /* horizontal as per Gabriela's explanation */
+    justify-content: space-around; /* vertical as per Gabriela's explanation */
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -56,7 +56,7 @@ body {
     border: 1px solid lightgray;
 }
 
-.group:nth-child(1) {
+.group:nth-child(1) { /* refers to the first container */
     min-height: 19rem;
 }
 
@@ -69,7 +69,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: hidden; /* so the image will not exceed the div limits */
 }
 
 .profile-photo img {
@@ -127,8 +127,7 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
-/* media queries */
-
+/* media queries - one for Tablet and another for mobile handset */
 
 @media (max-width: 1024px) {
     .instagram-wrapper {
@@ -146,7 +145,7 @@ body {
     }
 
     .instagram-phone {
-        display: none;
+        display: none; /* no scrolling */
     }
 
     .instagram-continue {
