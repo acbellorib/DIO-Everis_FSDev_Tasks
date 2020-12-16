@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Webpage</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body onload="load()">
+        <!-- <script>
+            alert("My fist js");            
+        </script> -->
+        <h1>My Webpage</h1>
+        <button type="button" onclick="clickHere()">Click here!</button>
+        <p id="thanksMsg" onclick="redirect()"></p> <!-- you may remove the id from here as well... It should work as expected... -->
+        <p id="mouseHover" onmouseover="replaceText(this)" onmouseout="undo(this)">Hover the mouse here!</p> <!-- you may remove the id from here as well... It should work as expected... -->
+        <p id="mouseHover2" onmouseover="replaceText(this)" onmouseout="undo(this)">Hover the mouse here!</p> <!-- you may remove the id from here as well... It should work as expected... -->
+        <select onchange="functionChange(this)">
+            <option value="1">Value 1</option>
+            <option value="2">Value 2</option>
+            <option value="3">Value 3</option>
+        </select>
+    </body>
+</html>
